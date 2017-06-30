@@ -118,23 +118,23 @@ if len(List) == 5:
     elif List[1] == "**":#Exponet
         if List[3] == "+":
             #+
-            Final = Num1 + Num2 + Num3
+            Final = Num1 ** Num2 + Num3
             
         elif List[3] == "-":
             #-
-            Final = Num1 + Num2 - Num3
+            Final = Num1 ** Num2 - Num3
             
         elif List[3] == "*":
             #*
-            Final = Num1 + Num2 * Num3
+            Final = Num1 ** Num2 * Num3
             
         elif List[3] == "/":
             #/
-            Final = Num1 + Num2 / Num3
+            Final = Num1 ** Num2 / Num3
             
         elif List[3] == "**":
             #**
-            Final = Num1 + Num2 ** Num3
+            Final = Num1 ** Num2 ** Num3
          #-------------------------------#
     else:
         print("Invalid.")
